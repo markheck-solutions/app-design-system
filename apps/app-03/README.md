@@ -1,32 +1,32 @@
-# app-03
+# app-03 - Migration Cutover Readiness Command Center
 
 ## App identity
 
-TBD
+Migration Cutover Readiness Command Center
 
 ## Repo
 
-TBD
+https://github.com/markheck-solutions/migration-cutover-readiness.git
 
 ## Local path
 
-TBD
+C:\SoftwareFactory\01-projects\migration-cutover-readiness
 
 ## Stack
 
-TBD
+Next.js App Router, React, TypeScript, Tailwind CSS, Drizzle ORM, Postgres/PGlite, Sentry, PostHog, Vitest, Playwright
 
 ## Classification
 
-TBD
+operations_dashboard
 
 ## Current UX notes
 
-TBD
+Read-only cutover readiness command center for wave go/no-go decisions, blockers, owners, and next actions.
 
 ## Target pattern
 
-TBD
+Operations Dashboard + Blocker Panel
 
 ## Figma links
 
@@ -34,9 +34,8 @@ TBD
 
 ## Status
 
-not_started
+intake
 
 ## Next actions
 
-TBD
-
+Capture current state in Figma, then design target readiness command-center frame from approved design system patterns.

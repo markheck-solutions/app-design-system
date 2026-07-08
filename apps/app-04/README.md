@@ -1,32 +1,32 @@
-# app-04
+# app-04 - Carrier Performance Intelligence Scorecard
 
 ## App identity
 
-TBD
+Carrier Performance Intelligence Scorecard
 
 ## Repo
 
-TBD
+https://github.com/markheck-solutions/carrier-performance-scorecard.git
 
 ## Local path
 
-TBD
+C:\SoftwareFactory\01-projects\carrier-performance-scorecard
 
 ## Stack
 
-TBD
+Next.js App Router, React, TypeScript, Tailwind CSS, Drizzle ORM, Supabase/Postgres, Vitest, Playwright
 
 ## Classification
 
-TBD
+reporting_app
 
 ## Current UX notes
 
-TBD
+Executive carrier health scorecard with deterministic scoring, explainable insights, and mock QBR brief generation.
 
 ## Target pattern
 
-TBD
+Executive Summary + Reporting Page
 
 ## Figma links
 
@@ -34,9 +34,8 @@ TBD
 
 ## Status
 
-not_started
+intake
 
 ## Next actions
 
-TBD
-
+Capture current state in Figma, then design target executive scorecard/reporting frame from approved design system patterns.

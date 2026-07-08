@@ -1,32 +1,32 @@
-# app-01
+# app-01 - Vendor Escalation Tracker
 
 ## App identity
 
-TBD
+Vendor Escalation Tracker
 
 ## Repo
 
-TBD
+https://github.com/markheck-solutions/vendor-escalation-tracker.git
 
 ## Local path
 
-TBD
+C:\SoftwareFactory\01-projects\vendor-escalation-tracker
 
 ## Stack
 
-TBD
+Next.js App Router, React, TypeScript, Tailwind CSS, Drizzle ORM, Postgres/Supabase, Vitest, Playwright
 
 ## Classification
 
-TBD
+operations_dashboard
 
 ## Current UX notes
 
-TBD
+Risk dashboard with priority queue, filters, read-only detail drawer, and mock draft generation.
 
 ## Target pattern
 
-TBD
+Operations Dashboard + Table With Detail Drawer
 
 ## Figma links
 
@@ -34,9 +34,8 @@ TBD
 
 ## Status
 
-not_started
+intake
 
 ## Next actions
 
-TBD
-
+Capture current state in Figma, then design target command-center frame from approved design system patterns.

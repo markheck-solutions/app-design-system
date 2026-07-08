@@ -1,32 +1,32 @@
-# app-02
+# app-02 - Team Coverage and PTO Readiness Planner
 
 ## App identity
 
-TBD
+Team Coverage and PTO Readiness Planner
 
 ## Repo
 
-TBD
+https://github.com/markheck-solutions/pto-readiness-planner.git
 
 ## Local path
 
-TBD
+C:\SoftwareFactory\01-projects\pto-readiness-planner
 
 ## Stack
 
-TBD
+Next.js App Router, React, TypeScript, Tailwind CSS, Postgres, Vitest, Playwright
 
 ## Classification
 
-TBD
+workflow_wizard
 
 ## Current UX notes
 
-TBD
+PTO request decision support around coverage risk, role requirements, overlaps, delivery windows, and fairness context.
 
 ## Target pattern
 
-TBD
+Workflow Wizard + Executive Summary
 
 ## Figma links
 
@@ -34,9 +34,8 @@ TBD
 
 ## Status
 
-not_started
+intake
 
 ## Next actions
 
-TBD
-
+Capture current state in Figma, then design target readiness-review flow from approved design system patterns.
