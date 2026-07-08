@@ -78,3 +78,82 @@ Outcome:
 
 - Figma auth is usable for the authenticated connector.
 - Foundation file creation remains deferred until explicitly started after repo reconciliation.
+
+## 2026-07-08 - Foundation file creation
+
+Purpose: create the initial Figma source-of-truth foundation for `app-design-system`.
+
+Account/auth result:
+
+- `_whoami` PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Tools used:
+
+- `_whoami`
+- `_create_new_file`
+- `_get_libraries`
+- `_search_design_system`
+- `_use_figma`
+- `_get_metadata`
+- `_get_screenshot`
+
+File creation result:
+
+- PASS.
+- File name: `MS App Design System`
+- File key: `ricGmgtrDAtklOoB9CkBZb`
+- File URL: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb`
+
+Write-to-canvas result:
+
+- PASS.
+- Created or verified 16 required pages.
+- Created 16 starter frames:
+  - `ADS / Foundation / Color Roles / v0.1`
+  - `ADS / Foundation / Typography / v0.1`
+  - `ADS / Foundation / Spacing / v0.1`
+  - `ADS / Foundation / Elevation / v0.1`
+  - `ADS / Component / Status Badge Set / v0.1`
+  - `ADS / Component / KPI Strip / v0.1`
+  - `ADS / Component / Blocker Panel / v0.1`
+  - `ADS / Component / Action Queue / v0.1`
+  - `ADS / Component / Detail Drawer / v0.1`
+  - `ADS / Layout / Operations Dashboard / v0.1`
+  - `ADS / Layout / Table + Detail Drawer / v0.1`
+  - `ADS / Layout / Executive Summary / v0.1`
+  - `ADS / Layout / Admin Configuration Shell / v0.1`
+  - `ADS / Layout / Workflow Wizard / v0.1`
+  - `ADS / Layout / Intake Form / v0.1`
+  - `ADS / Layout / Reporting Page / v0.1`
+- Created 4 variable collections:
+  - `ADS Primitives`
+  - `ADS Semantic`
+  - `ADS Spacing`
+  - `ADS Radius`
+- Created 5 text styles under `ADS/Typography`.
+- Created 3 effect styles under `ADS/Elevation`.
+
+Validation result:
+
+- Direct Figma inventory found no missing required pages.
+- Direct Figma inventory found no missing required starter frames.
+- Metadata checks confirmed `01 Foundations`, `03 Components`, and `04 Layout Patterns` contain the expected frame names.
+- Screenshot checks completed for:
+  - Cover frame `2:87`
+  - Color Roles frame `3:2`
+  - Operations Dashboard frame `5:2`
+
+Notes:
+
+- Existing `figma/FIGMA_LINKS.md` had no prior file URL to locate, so a new design file was created.
+- Root-level `_get_metadata` without a node id listed only `00 Cover`; page-specific metadata and direct inventory verified the full page/frame set.
+- No app repos were modified.
+- No app UI was implemented.
+- GitHub governance was not changed in this task.

@@ -3,32 +3,32 @@
 ## Master File
 
 - File name: MS App Design System
-- File URL: TBD
+- File URL: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb
 
 ## Foundation Frame Links
 
-- Color roles: TBD
-- Typography: TBD
-- Spacing: TBD
-- Elevation: TBD
+- Color roles: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=3-2
+- Typography: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=3-23
+- Spacing: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=3-30
+- Elevation: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=3-53
 
 ## Layout Frame Links
 
-- Operations Dashboard: TBD
-- Table + Detail Drawer: TBD
-- Executive Summary: TBD
-- Admin Configuration Shell: TBD
-- Workflow Wizard: TBD
-- Intake Form: TBD
-- Reporting Page: TBD
+- Operations Dashboard: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=5-2
+- Table + Detail Drawer: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=5-3
+- Executive Summary: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=5-4
+- Admin Configuration Shell: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=5-5
+- Workflow Wizard: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=5-6
+- Intake Form: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=5-7
+- Reporting Page: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=5-8
 
 ## Component Frame Links
 
-- Status Badge Set: TBD
-- KPI Strip: TBD
-- Blocker Panel: TBD
-- Action Queue: TBD
-- Detail Drawer: TBD
+- Status Badge Set: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=4-2
+- KPI Strip: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=4-18
+- Blocker Panel: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=4-37
+- Action Queue: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=4-50
+- Detail Drawer: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=4-67
 
 ## App-specific Links
 
@@ -42,4 +42,3 @@
 | app-06 | TBD | TBD | TBD |
 | app-07 | TBD | TBD | TBD |
 | app-08 | TBD | TBD | TBD |
-
