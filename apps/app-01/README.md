@@ -32,7 +32,8 @@ Operations Dashboard + Table With Detail Drawer
 
 - Current root dashboard: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2
 - Current detail drawer: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4
-- Approved target - Concept 1 - Vendor Silence Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2
+- Approved target - Concept 1B - Vendor Delay Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=29-6
+- Superseded - Concept 1 - Vendor Silence Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2
 - Not selected - Concept 2 - Same-Day Escalation Board: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-183
 - Not selected - Concept 3 - Revenue Exposure Priority Stack: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-332
 
@@ -46,4 +47,4 @@ target_approved
 
 ## Next actions
 
-Create an implementation plan from the approved Concept 1 frame.
+Create an implementation plan from the approved Concept 1B frame.

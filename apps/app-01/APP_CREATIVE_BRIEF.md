@@ -10,40 +10,43 @@ app-01
 
 ## Product story
 
-Vendor follow-up decay creates delivery risk, escalation pressure, and potential revenue exposure.
+Vendor delays create delivery risk, escalation pressure, and potential revenue exposure.
 
-The product exists for service delivery managers and escalation owners who need to spot stale vendor follow-ups before they become missed commitments. The story is not generic task tracking. It is about money, aging, blocker clarity, and the next message that moves a risky delivery forward.
+The product tracks stalled vendor progress, not just silence. It exists for service delivery managers and escalation owners who need to see when vendor-owned actions stop closing, ETAs stay unresolved, blockers remain open, ownership is unclear, or due dates start slipping. The story is not generic task tracking. It is about money, delay age, last meaningful progress, blocker clarity, and the next closure action that moves a risky delivery forward.
 
 ## Target user impression
 
 The app should feel like a focused escalation desk built for same-day action. A user should immediately understand:
 
 - Which vendor issue deserves attention first.
-- How old the silence is.
+- Which vendor-owned action is most urgent.
+- How long progress has been delayed.
 - What revenue or delivery exposure is attached.
-- What blocker is holding progress.
-- What next action or follow-up draft is available.
+- What blocker is holding closure.
+- What the last meaningful progress was.
+- What next closure action or follow-up draft is available.
 
 The impression should be sharp, urgent, and controlled. It should feel portfolio-polished without becoming decorative or fake.
 
 ## Visual lane
 
-Escalation command center.
+Vendor delay escalation command center.
 
-This lane is specific to app-01. It should emphasize triage pressure, vendor silence, delivery exposure, blocker evidence, and read-only escalation review. It must not drift into app-02's coverage planning cockpit, app-03's cutover war room, or app-04's executive intelligence scorecard.
+This lane is specific to app-01. It should emphasize triage pressure, stalled vendor progress, delivery exposure, blocker evidence, last meaningful progress, next closure action, and read-only escalation review. Vendor silence can appear as one signal through last vendor touch, but it must not define the whole product story. It must not drift into app-02's coverage planning cockpit, app-03's cutover war room, or app-04's executive intelligence scorecard.
 
 ## Hero moment
 
-A same-day escalation queue that exposes priority, aging, blocker type, revenue exposure, next action, and a read-only detail drawer.
+A delay escalation ladder showing vendor-owned actions moving from On Track to Executive Escalation based on delay age, unresolved blocker, last meaningful progress, next closure action, due-date pressure, and revenue exposure.
 
-The first-view moment should make the queue feel operationally decisive: high-risk items have visible urgency rails, stale touch dates stay close to money and due dates, blocker text is readable without opening a modal, and the detail drawer gives fast escalation context without losing queue position.
+The first-view moment should make stalled progress operationally obvious. The user should immediately see which vendor-owned action is most urgent, how long progress has been delayed, what is blocking closure, what the last meaningful progress was, what action is needed today, and how much revenue or delivery exposure is attached.
 
 ## Visual signature
 
 - Urgency rails on priority records.
 - Escalation badges that distinguish risk, blocker, and status without inventing new status colors.
-- Compact priority cards optimized for scanning money, due date, last vendor touch, signal, blocker, and next action.
-- Sharp aging/risk treatment for stale vendor silence.
+- Compact priority cards optimized for scanning money, due date, delay age, last vendor touch, last meaningful progress, blocker unresolved, and next closure action.
+- Sharp delay/risk treatment for stalled vendor progress.
+- A horizontal escalation ladder with stages: On Track, Watching, Slipping, Blocked, Executive Escalation.
 - Persistent decision drawer for read-only delivery review.
 - Copy-safe follow-up draft area that supports the demo story without implying send/save/edit behavior.
 
@@ -60,9 +63,9 @@ No motion should imply unsupported write actions or live vendor communication.
 
 ## What should feel impressive
 
-- Revenue exposure and stale follow-up risk are visible in one scan.
+- Revenue exposure and stalled vendor progress risk are visible in one scan.
 - The queue feels dense but readable, not cramped.
-- Blockers and next actions are legible before opening detail.
+- Blockers, last meaningful progress, and next closure actions are legible before opening detail.
 - The selected record remains connected to the drawer.
 - Read-only posture is clear and credible.
 - The app feels like it understands escalation pressure, not just dashboard metrics.
@@ -83,11 +86,12 @@ No motion should imply unsupported write actions or live vendor communication.
 
 ## Figma target frame links
 
-- Approved target - Concept 1 - Vendor Silence Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2
+- Approved target - Concept 1B - Vendor Delay Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=29-6
+- Superseded - Concept 1 - Vendor Silence Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2
 - Not selected - Concept 2 - Same-Day Escalation Board: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-183
 - Not selected - Concept 3 - Revenue Exposure Priority Stack: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-332
 
-Concept 1 is the approved app-01 target direction for implementation planning. The prior literal radar/timeline treatment was rejected because it required explanation and did not communicate vendor silence as an escalation problem within three seconds.
+Concept 1B is the approved app-01 target direction for implementation planning. The prior Concept 1 frame is superseded because it was too narrow and focused on silence instead of vendor delay/progress failure. The earlier literal radar/timeline treatment remains rejected because it required explanation and did not communicate the escalation problem within three seconds.
 
 ## Implementation constraints
 

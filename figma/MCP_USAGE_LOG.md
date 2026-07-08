@@ -448,3 +448,77 @@ Notes:
 - App status updated to `target_approved`.
 - No shared design-system version bump; app-specific approval only.
 - No GitHub governance work was performed.
+
+## 2026-07-08 - app-01 approved target revision
+
+Purpose: revise the approved app-01 target from a silence-only concept to a broader vendor delay / stalled progress concept before implementation planning.
+
+Account/auth result:
+
+- `_whoami` PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Tools used:
+
+- `_whoami`
+- `_get_metadata`
+- `_use_figma`
+- `_get_screenshot`
+- Local screenshot download and visual inspection
+
+Write-to-canvas result:
+
+- PASS.
+- Page used: `21 Pilot App - Target State`
+- Created revised approved frame:
+  - `APPROVED / ADS / Pilot / Vendor Escalation Tracker / Target / Concept 1B - Vendor Delay Escalation Ladder` (`29:6`)
+- Marked old approved frame as superseded:
+  - `SUPERSEDED - too narrow; focused on silence instead of vendor delay/progress failure / APPROVED / ADS / Pilot / Vendor Escalation Tracker / Target / Concept 1 - Vendor Silence Escalation Ladder` (`22:2`)
+- Revised approved target link:
+  - `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=29-6`
+- Superseded old target link:
+  - `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2`
+
+Verification:
+
+- Required Concept 1B text terms were found in Figma:
+  - `Vendor Delay Escalation Ladder`
+  - `VENDOR DELAY ESCALATION BOARD`
+  - `On Track`
+  - `Watching`
+  - `Slipping`
+  - `Blocked`
+  - `Executive Escalation`
+  - `Last meaningful progress`
+  - `Blocker unresolved`
+  - `Next closure action`
+  - `5d delayed`
+  - `$184K`
+  - `Today ranked vendor delay queue`
+- Forbidden silence-only terms were absent from the revised approved frame:
+  - `Vendor Silence`
+  - `days silent`
+  - `Silence age`
+  - `silence grows`
+  - `stale touch`
+- Screenshot check completed for frame `29:6`.
+- Rendered screenshot downloaded locally for inspection:
+  - `C:\Users\mheck\AppData\Local\Temp\app01-concept-1b-vendor-delay-ladder.png`
+
+Failed or corrected Figma actions:
+
+- First `_use_figma` attempt failed at the final viewport-selection line after canvas edits with `TypeError: node.selection: no such property 'selection' on FRAME node`.
+- Retry removed the invalid selection assignment, cleaned up any partial Concept 1B duplicate, and completed successfully.
+
+Notes:
+
+- No app repo was modified.
+- No app UI was implemented.
+- App status remains `target_approved`.
+- No GitHub governance work was performed.
