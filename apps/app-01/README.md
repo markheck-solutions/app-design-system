@@ -34,7 +34,7 @@ Operations Dashboard + Table With Detail Drawer
 - Current detail drawer: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4
 - Target Direction A - Escalation War Room: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-2
 - Target Direction B - Revenue Risk Desk: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-120
-- Target Direction C - Vendor Silence Radar: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233
+- Target Direction C - Vendor Silence Timeline: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233
 
 ## Creative brief
 

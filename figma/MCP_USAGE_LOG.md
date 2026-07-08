@@ -288,3 +288,43 @@ Notes:
 - No app repo was modified.
 - No app UI was implemented.
 - No GitHub governance work was performed.
+
+## 2026-07-08 - app-01 Direction C feedback revision
+
+Purpose: revise Direction C after owner feedback that the radar metaphor did not immediately make sense.
+
+Tools used:
+
+- `_use_figma`
+- `_get_screenshot`
+- `_get_metadata`
+
+Write-to-canvas result:
+
+- PASS.
+- Updated frame `15:233`.
+- Renamed frame to `ADS / Pilot / Vendor Escalation Tracker / Target / Direction C - Vendor Silence Timeline`.
+- Replaced abstract radar hero with explicit timeline:
+  - `0d` last touch
+  - `2d` blocker open
+  - `3d` no ETA
+  - `5d` escalate
+  - selected vendor card with `Northstar Components`, `5d silent`, and `$184K exposed`
+- Kept frame URL stable: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233`
+
+Visual verification:
+
+- Screenshot check completed for frame `15:233`.
+- Rendered screenshot downloaded locally for inspection:
+  - `C:\Users\mheck\AppData\Local\Temp\app01-direction-c-timeline.png`
+
+Failed or corrected Figma actions:
+
+- First `_use_figma` revision attempt failed with transient HTTP 503 before execution.
+- Retry passed.
+
+Notes:
+
+- No app repo was modified.
+- No app UI was implemented.
+- No GitHub governance work was performed.
