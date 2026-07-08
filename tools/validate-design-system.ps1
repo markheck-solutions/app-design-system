@@ -27,6 +27,116 @@ function Test-RepoPath {
   }
 }
 
+function Test-AppTrackingBoundary {
+  $appsRoot = Join-Path $repoRoot "apps"
+  if (-not (Test-Path -LiteralPath $appsRoot -PathType Container)) {
+    return
+  }
+
+  $forbiddenDirectoryNames = @(
+    "src",
+    "app",
+    "pages",
+    "components",
+    "lib",
+    "db",
+    "prisma",
+    "drizzle",
+    "public"
+  )
+
+  $forbiddenExactFileNames = @(
+    "package.json",
+    "package-lock.json",
+    "pnpm-lock.yaml",
+    "yarn.lock",
+    "tsconfig.json"
+  )
+
+  $forbiddenWildcardFileNames = @(
+    "next.config.*",
+    "tailwind.config.*",
+    "vite.config.*"
+  )
+
+  $forbiddenSourceExtensions = @(
+    ".cjs",
+    ".css",
+    ".cs",
+    ".go",
+    ".html",
+    ".java",
+    ".js",
+    ".jsx",
+    ".kt",
+    ".less",
+    ".mjs",
+    ".php",
+    ".py",
+    ".rb",
+    ".rs",
+    ".sass",
+    ".scss",
+    ".sql",
+    ".svelte",
+    ".swift",
+    ".ts",
+    ".tsx",
+    ".vue"
+  )
+
+  $appTrackingDirectories = Get-ChildItem -LiteralPath $appsRoot -Directory -Force |
+    Where-Object { $_.Name -match "^app-\d+$" }
+
+  foreach ($appDirectory in $appTrackingDirectories) {
+    $directories = Get-ChildItem -LiteralPath $appDirectory.FullName -Recurse -Directory -Force
+    foreach ($directory in $directories) {
+      if ($forbiddenDirectoryNames -contains $directory.Name) {
+        $relative = [System.IO.Path]::GetRelativePath($repoRoot, $directory.FullName)
+        Add-Failure "Forbidden app implementation directory under tracking folder: $relative"
+      }
+    }
+
+    $files = Get-ChildItem -LiteralPath $appDirectory.FullName -Recurse -File -Force
+    foreach ($file in $files) {
+      $relativeToApp = [System.IO.Path]::GetRelativePath($appDirectory.FullName, $file.FullName) -replace "\\", "/"
+      $segments = @($relativeToApp -split "/")
+      $parentSegments = @()
+      if ($segments.Count -gt 1) {
+        $parentSegments = $segments[0..($segments.Count - 2)]
+      }
+
+      if (@($parentSegments | Where-Object { $forbiddenDirectoryNames -contains $_ }).Count -gt 0) {
+        continue
+      }
+
+      $relative = [System.IO.Path]::GetRelativePath($repoRoot, $file.FullName)
+
+      if ($forbiddenExactFileNames -contains $file.Name) {
+        Add-Failure "Forbidden app implementation file under tracking folder: $relative"
+        continue
+      }
+
+      $matchesForbiddenWildcard = $false
+      foreach ($pattern in $forbiddenWildcardFileNames) {
+        if ($file.Name -like $pattern) {
+          $matchesForbiddenWildcard = $true
+          break
+        }
+      }
+
+      if ($matchesForbiddenWildcard) {
+        Add-Failure "Forbidden app implementation config under tracking folder: $relative"
+        continue
+      }
+
+      if ($forbiddenSourceExtensions -contains $file.Extension.ToLowerInvariant()) {
+        Add-Failure "Forbidden app implementation source file under tracking folder: $relative"
+      }
+    }
+  }
+}
+
 $requiredFiles = @(
   "README.md",
   "AGENTS.md",
@@ -171,6 +281,8 @@ foreach ($skillFile in $skillFiles) {
   Test-RepoPath -RelativePath $skillFile -Type File
 }
 
+Test-AppTrackingBoundary
+
 $allowedTokenNamedFiles = @(
   "tokens\design-tokens.json",
   "docs\03_DESIGN_TOKENS.md"
@@ -214,5 +326,5 @@ Write-Output "Required files and directories exist."
 Write-Output "Token JSON parsed."
 Write-Output "App registry JSON parsed and includes app-01 through app-08."
 Write-Output "Repo-local Codex skills exist."
+Write-Output "App tracking folders contain no forbidden implementation files or directories."
 Write-Output "No credential-like files detected outside approved design-token docs."
-
