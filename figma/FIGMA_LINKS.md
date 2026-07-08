@@ -34,7 +34,7 @@
 
 | App ID | Current State | Target State | Notes |
 |---|---|---|---|
-| app-01 | [Root Dashboard](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2); [Detail Drawer](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4) | [Concept 1 - Vendor Silence Escalation Ladder](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2); [Concept 2 - Same-Day Escalation Board](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-183); [Concept 3 - Revenue Exposure Priority Stack](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-332) | Current-state desktop captures under `20 Pilot App - Current State`; replacement target concepts under `21 Pilot App - Target State`. Rejected radar/timeline concept is marked rejected in Figma. |
+| app-01 | [Root Dashboard](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2); [Detail Drawer](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4) | [Approved - Concept 1 - Vendor Silence Escalation Ladder](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2) | Approved target under `21 Pilot App - Target State`. Concepts 2 and 3 are marked not selected in Figma; rejected radar/timeline concept is marked rejected. |
 | app-02 | TBD | TBD | TBD |
 | app-03 | TBD | TBD | TBD |
 | app-04 | TBD | TBD | TBD |

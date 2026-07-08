@@ -6,4 +6,4 @@
 - Added draft visual direction, UX principles, tokens, prompts, validation tools, app registry, and Figma workflow docs.
 - Added consumer guidance for app repos.
 - Added placeholder adoption tracking for eight apps.
-
+- Approved app-01 target direction: Vendor Silence Escalation Ladder.

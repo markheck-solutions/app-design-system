@@ -395,3 +395,56 @@ Notes:
 - No app UI was implemented.
 - App status remains `target_designing`.
 - No GitHub governance work was performed.
+
+## 2026-07-08 - app-01 target approval
+
+Purpose: record owner selection of Concept 1 as the approved app-01 target direction.
+
+Account/auth result:
+
+- `_whoami` PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Tools used:
+
+- `_whoami`
+- `_get_metadata`
+- `_use_figma`
+- `_get_screenshot`
+- Local screenshot download and visual inspection
+
+Write-to-canvas result:
+
+- PASS.
+- Page used: `21 Pilot App - Target State`
+- Approved frame:
+  - `APPROVED / ADS / Pilot / Vendor Escalation Tracker / Target / Concept 1 - Vendor Silence Escalation Ladder` (`22:2`)
+- Marked alternatives as not selected:
+  - `NOT SELECTED / ADS / Pilot / Vendor Escalation Tracker / Target / Concept 2 - Same-Day Escalation Board` (`22:183`)
+  - `NOT SELECTED / ADS / Pilot / Vendor Escalation Tracker / Target / Concept 3 - Revenue Exposure Priority Stack` (`22:332`)
+- Approved target link:
+  - `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2`
+
+Visual verification:
+
+- Screenshot check completed for frame `22:2`.
+- Rendered screenshot downloaded locally for inspection:
+  - `C:\Users\mheck\AppData\Local\Temp\app01-approved-concept-1.png`
+
+Failed or corrected Figma actions:
+
+- None.
+
+Notes:
+
+- No app repo was modified.
+- No app UI was implemented.
+- App status updated to `target_approved`.
+- No shared design-system version bump; app-specific approval only.
+- No GitHub governance work was performed.

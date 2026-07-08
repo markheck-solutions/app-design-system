@@ -35,11 +35,11 @@
       "current_ux_state": "Risk dashboard with priority queue, filters, read-only detail drawer, and mock draft generation.",
       "target_pattern": "Operations Dashboard + Table With Detail Drawer",
       "figma_current_state_url": "https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2",
-      "figma_target_state_url": "https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2; https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-183; https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-332",
+      "figma_target_state_url": "https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2",
       "design_system_version": "0.1.0",
-      "status": "target_designing",
+      "status": "target_approved",
       "priority": "P1",
-      "notes": "Current state captured in Figma as root dashboard and loaded detail drawer desktop frames. Three replacement Vendor Silence Escalation Board target concepts created in Figma for owner review; rejected radar/timeline concept is marked rejected. Public demo is read-only with fictional data. Local repo currently has uncommitted work on codex/command-center-ux; do not alter app source without owner confirmation."
+      "notes": "Current state captured in Figma as root dashboard and loaded detail drawer desktop frames. Concept 1 - Vendor Silence Escalation Ladder approved as app-01 target direction. Concepts 2 and 3 are marked not selected; rejected radar/timeline concept is marked rejected. Public demo is read-only with fictional data. Local repo currently has uncommitted work on codex/command-center-ux; do not alter app source without owner confirmation."
     },
     {
       "id": "app-02",
