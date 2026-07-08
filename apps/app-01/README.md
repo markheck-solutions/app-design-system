@@ -33,6 +33,10 @@ Operations Dashboard + Table With Detail Drawer
 - Current root dashboard: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2
 - Current detail drawer: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4
 
+## Creative brief
+
+[APP_CREATIVE_BRIEF.md](APP_CREATIVE_BRIEF.md)
+
 ## Status
 
 figma_current_captured
