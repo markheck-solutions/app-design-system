@@ -20,10 +20,16 @@ Codex must document deviations from Figma.
 
 Codex must update adoption tracking.
 
+Before target design work, Codex must create or update `APP_CREATIVE_BRIEF.md` for that app.
+
+Codex must not produce target designs until the app has a creative brief.
+
+The creative brief must define the app-specific product story, visual lane, hero moment, visual signature, motion or interaction signature, what should feel impressive, and what should not be reused from other apps.
+
 ## App Tracking Boundary
 
 The `apps/app-01` through `apps/app-<#>` folders are adoption tracking folders only.
-They may contain design-system artifacts such as `README.md`, `APP_INTAKE.md`, `UX_AUDIT.md`, `FACELIFT_PLAN.md`, `VISUAL_QA_REPORT.md`, Figma links, screenshot references, rollout notes, and decision records.
+They may contain design-system artifacts such as `README.md`, `APP_INTAKE.md`, `APP_CREATIVE_BRIEF.md`, `UX_AUDIT.md`, `FACELIFT_PLAN.md`, `VISUAL_QA_REPORT.md`, Figma links, screenshot references, rollout notes, and decision records.
 They must not contain application implementation code.
 
 Forbidden under `apps/app-*`:

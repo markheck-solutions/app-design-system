@@ -85,6 +85,18 @@ function Test-AppTrackingBoundary {
     ".vue"
   )
 
+  $allowedTrackingArtifactNames = @(
+    "APP_CREATIVE_BRIEF.md",
+    "APP_INTAKE.md",
+    "APP_ROLLOUT_REPORT.md",
+    "DESIGN_DECISION_RECORD.md",
+    "FACELIFT_PLAN.md",
+    "FIGMA_HANDOFF.md",
+    "README.md",
+    "UX_AUDIT.md",
+    "VISUAL_QA_REPORT.md"
+  )
+
   $appTrackingDirectories = Get-ChildItem -LiteralPath $appsRoot -Directory -Force |
     Where-Object { $_.Name -match "^app-\d+$" }
 
@@ -111,6 +123,10 @@ function Test-AppTrackingBoundary {
       }
 
       $relative = [System.IO.Path]::GetRelativePath($repoRoot, $file.FullName)
+
+      if ($allowedTrackingArtifactNames -contains $file.Name) {
+        continue
+      }
 
       if ($forbiddenExactFileNames -contains $file.Name) {
         Add-Failure "Forbidden app implementation file under tracking folder: $relative"
@@ -168,6 +184,7 @@ $requiredFiles = @(
   "docs/15_DECISION_RECORDS.md",
   "docs/16_APP_ROLLOUT_WORKFLOW.md",
   "docs/17_MCP_USAGE_POLICY.md",
+  "docs/18_PORTFOLIO_DIFFERENTIATION.md",
   "docs/APP_ADOPTION_MATRIX.md",
   "figma/FIGMA_FILE_STRUCTURE.md",
   "figma/FIGMA_LINKS.md",
@@ -194,6 +211,7 @@ $requiredFiles = @(
   "prompts/CODEX_08_PR_REVIEW.md",
   "prompts/CODEX_09_ROLLOUT_NEXT_APP.md",
   "templates/APP_INTAKE.md",
+  "templates/APP_CREATIVE_BRIEF.md",
   "templates/APP_FACELIFT_PLAN.md",
   "templates/UX_AUDIT.md",
   "templates/VISUAL_QA_REPORT.md",

@@ -39,4 +39,4 @@ figma_current_captured
 
 ## Next actions
 
-Design target command-center frame from approved design system patterns after owner confirms the current-state capture.
+Create `APP_CREATIVE_BRIEF.md`, then design a target frame after owner confirms the current-state capture and the app-specific visual lane.
