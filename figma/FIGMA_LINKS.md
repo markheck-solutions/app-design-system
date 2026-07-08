@@ -34,7 +34,7 @@
 
 | App ID | Current State | Target State | Notes |
 |---|---|---|---|
-| app-01 | TBD | TBD | TBD |
+| app-01 | [Root Dashboard](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2); [Detail Drawer](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4) | TBD | Current-state desktop captures under `20 Pilot App - Current State`. |
 | app-02 | TBD | TBD | TBD |
 | app-03 | TBD | TBD | TBD |
 | app-04 | TBD | TBD | TBD |

@@ -157,3 +157,60 @@ Notes:
 - No app repos were modified.
 - No app UI was implemented.
 - GitHub governance was not changed in this task.
+
+## 2026-07-08 - app-01 current-state capture
+
+Purpose: capture Vendor Escalation Tracker current state in Figma before redesign work.
+
+Account/auth result:
+
+- `_whoami` PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Tools used:
+
+- `_whoami`
+- `_use_figma`
+- `_upload_assets`
+- `_get_screenshot`
+- Local Playwright Chromium screenshot capture
+
+File result:
+
+- PASS.
+- File name: `MS App Design System`
+- File key: `ricGmgtrDAtklOoB9CkBZb`
+- File URL: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb`
+
+Write-to-canvas result:
+
+- PASS.
+- Page used: `20 Pilot App - Current State`
+- Created current-state frames:
+  - `ADS / Pilot / Vendor Escalation Tracker / Current / Root Dashboard / Desktop` (`9:2`)
+  - `ADS / Pilot / Vendor Escalation Tracker / Current / Detail Drawer / Desktop` (`9:4`)
+- Uploaded screenshot fills:
+  - Root dashboard image node `9:3`, image hash `d7402ab0f354c8ebfdde6736c3b9a575ad1edd81`
+  - Detail drawer image node `9:5`, image hash `b30712eb69ca4dd7ca3e0d39e164bc41f02bddd2`
+
+Capture proof:
+
+- Local app `/` returned HTTP 200.
+- Local app `/api/health` returned HTTP 200 with `{"ok":true}`.
+- Screenshot files:
+  - `C:\Users\mheck\AppData\Local\Temp\app-01-current-capture-20260708-093654\app-01-current-root-dashboard-desktop.png`
+  - `C:\Users\mheck\AppData\Local\Temp\app-01-current-capture-20260708-093654\app-01-current-detail-drawer-loaded-desktop.png`
+- Figma screenshot checks completed for frame `9:2` and frame `9:4`.
+
+Notes:
+
+- App repo branch was `codex/command-center-ux`.
+- App repo had uncommitted work; source files were not edited or staged.
+- No redesign, app UI implementation, or GitHub governance work was performed.
+- No failed Figma actions.

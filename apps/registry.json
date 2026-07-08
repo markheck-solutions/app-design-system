@@ -34,12 +34,12 @@
       "classification": "operations_dashboard",
       "current_ux_state": "Risk dashboard with priority queue, filters, read-only detail drawer, and mock draft generation.",
       "target_pattern": "Operations Dashboard + Table With Detail Drawer",
-      "figma_current_state_url": "TBD",
+      "figma_current_state_url": "https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2",
       "figma_target_state_url": "TBD",
       "design_system_version": "0.1.0",
-      "status": "intake",
+      "status": "figma_current_captured",
       "priority": "P1",
-      "notes": "Public demo is read-only with fictional data. Local repo currently has uncommitted work on codex/command-center-ux; do not alter app source without owner confirmation."
+      "notes": "Current state captured in Figma as root dashboard and loaded detail drawer desktop frames. Public demo is read-only with fictional data. Local repo currently has uncommitted work on codex/command-center-ux; do not alter app source without owner confirmation."
     },
     {
       "id": "app-02",

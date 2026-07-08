@@ -30,12 +30,13 @@ Operations Dashboard + Table With Detail Drawer
 
 ## Figma links
 
-TBD
+- Current root dashboard: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2
+- Current detail drawer: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4
 
 ## Status
 
-intake
+figma_current_captured
 
 ## Next actions
 
-Capture current state in Figma, then design target command-center frame from approved design system patterns.
+Design target command-center frame from approved design system patterns after owner confirms the current-state capture.
