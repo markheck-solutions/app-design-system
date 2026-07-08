@@ -49,3 +49,32 @@ Outcome:
 - Repo bootstrap continues.
 - Figma foundation creation deferred to `figma/TODO_CREATE_FIGMA_FOUNDATION.md`.
 
+## 2026-07-08 - Auth reconciliation after plugin connection
+
+Purpose: confirm Figma connector auth after local `main` and `origin/main` were reconciled.
+
+Command/tool:
+
+- Figma connector `_whoami`
+
+Account/auth result:
+
+- PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Write-to-canvas availability:
+
+- Not tested in this step.
+- No Figma file was created.
+- `figma/FIGMA_LINKS.md` remains unchanged.
+
+Outcome:
+
+- Figma auth is usable for the authenticated connector.
+- Foundation file creation remains deferred until explicitly started after repo reconciliation.
