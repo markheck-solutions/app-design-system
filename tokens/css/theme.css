@@ -1,0 +1,77 @@
+:root {
+  --ads-color-background: #f6f8fb;
+  --ads-color-surface: #ffffff;
+  --ads-color-surface-raised: #f9fbff;
+  --ads-color-surface-subtle: #eef3f8;
+  --ads-color-border: #d6dee8;
+  --ads-color-border-strong: #9aa9ba;
+  --ads-color-text: #142033;
+  --ads-color-text-muted: #5d6b7c;
+  --ads-color-text-subtle: #7a8797;
+  --ads-color-accent: #1f6feb;
+  --ads-color-accent-strong: #0b4db3;
+
+  --ads-status-neutral-bg: #edf1f5;
+  --ads-status-neutral-border: #c8d1dc;
+  --ads-status-neutral-text: #344054;
+  --ads-status-info-bg: #e6f3ff;
+  --ads-status-info-border: #8ac2ff;
+  --ads-status-info-text: #07569b;
+  --ads-status-success-bg: #e8f7ef;
+  --ads-status-success-border: #77c79a;
+  --ads-status-success-text: #14633c;
+  --ads-status-warning-bg: #fff5df;
+  --ads-status-warning-border: #f2bf5e;
+  --ads-status-warning-text: #7a4b00;
+  --ads-status-critical-bg: #fdeaea;
+  --ads-status-critical-border: #ef8a8a;
+  --ads-status-critical-text: #9f1d1d;
+  --ads-status-blocked-bg: #f3ecff;
+  --ads-status-blocked-border: #b69df2;
+  --ads-status-blocked-text: #55319b;
+
+  --ads-space-0: 0;
+  --ads-space-1: 4px;
+  --ads-space-2: 8px;
+  --ads-space-3: 12px;
+  --ads-space-4: 16px;
+  --ads-space-5: 20px;
+  --ads-space-6: 24px;
+  --ads-space-8: 32px;
+  --ads-space-10: 40px;
+  --ads-space-12: 48px;
+
+  --ads-radius-none: 0;
+  --ads-radius-sm: 4px;
+  --ads-radius-md: 6px;
+  --ads-radius-lg: 8px;
+  --ads-radius-full: 999px;
+
+  --ads-font-family: Inter, "Segoe UI", Arial, sans-serif;
+  --ads-font-display-size: 32px;
+  --ads-font-display-line: 40px;
+  --ads-font-heading-size: 24px;
+  --ads-font-heading-line: 32px;
+  --ads-font-section-size: 18px;
+  --ads-font-section-line: 26px;
+  --ads-font-body-size: 14px;
+  --ads-font-body-line: 20px;
+  --ads-font-small-size: 12px;
+  --ads-font-small-line: 16px;
+
+  --ads-shadow-none: none;
+  --ads-shadow-sm: 0 1px 2px rgba(20, 32, 51, 0.08);
+  --ads-shadow-md: 0 8px 24px rgba(20, 32, 51, 0.10);
+  --ads-shadow-lg: 0 18px 48px rgba(20, 32, 51, 0.14);
+
+  --ads-layout-page-max: 1440px;
+  --ads-layout-content-max: 1180px;
+  --ads-layout-drawer-width: 420px;
+  --ads-layout-sidebar-width: 256px;
+
+  --ads-motion-fast: 120ms;
+  --ads-motion-base: 180ms;
+  --ads-motion-slow: 260ms;
+  --ads-motion-ease: cubic-bezier(0.2, 0, 0, 1);
+}
+

@@ -1,0 +1,17 @@
+name: Validate design system
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Validate design system repo
+        shell: pwsh
+        run: .\tools\validate-design-system.ps1
+

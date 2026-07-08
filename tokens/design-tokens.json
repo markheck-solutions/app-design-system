@@ -1,0 +1,119 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "version": "0.1.0",
+  "theme": {
+    "name": "Enterprise Operations Command Center",
+    "status": "draft"
+  },
+  "color": {
+    "background": { "value": "#f6f8fb", "type": "color" },
+    "surface": { "value": "#ffffff", "type": "color" },
+    "surfaceRaised": { "value": "#f9fbff", "type": "color" },
+    "surfaceSubtle": { "value": "#eef3f8", "type": "color" },
+    "border": { "value": "#d6dee8", "type": "color" },
+    "borderStrong": { "value": "#9aa9ba", "type": "color" },
+    "text": { "value": "#142033", "type": "color" },
+    "textMuted": { "value": "#5d6b7c", "type": "color" },
+    "textSubtle": { "value": "#7a8797", "type": "color" },
+    "accent": { "value": "#1f6feb", "type": "color" },
+    "accentStrong": { "value": "#0b4db3", "type": "color" },
+    "status": {
+      "neutral": {
+        "background": { "value": "#edf1f5", "type": "color" },
+        "border": { "value": "#c8d1dc", "type": "color" },
+        "text": { "value": "#344054", "type": "color" }
+      },
+      "info": {
+        "background": { "value": "#e6f3ff", "type": "color" },
+        "border": { "value": "#8ac2ff", "type": "color" },
+        "text": { "value": "#07569b", "type": "color" }
+      },
+      "success": {
+        "background": { "value": "#e8f7ef", "type": "color" },
+        "border": { "value": "#77c79a", "type": "color" },
+        "text": { "value": "#14633c", "type": "color" }
+      },
+      "warning": {
+        "background": { "value": "#fff5df", "type": "color" },
+        "border": { "value": "#f2bf5e", "type": "color" },
+        "text": { "value": "#7a4b00", "type": "color" }
+      },
+      "critical": {
+        "background": { "value": "#fdeaea", "type": "color" },
+        "border": { "value": "#ef8a8a", "type": "color" },
+        "text": { "value": "#9f1d1d", "type": "color" }
+      },
+      "blocked": {
+        "background": { "value": "#f3ecff", "type": "color" },
+        "border": { "value": "#b69df2", "type": "color" },
+        "text": { "value": "#55319b", "type": "color" }
+      }
+    }
+  },
+  "spacing": {
+    "0": { "value": "0px", "type": "dimension" },
+    "1": { "value": "4px", "type": "dimension" },
+    "2": { "value": "8px", "type": "dimension" },
+    "3": { "value": "12px", "type": "dimension" },
+    "4": { "value": "16px", "type": "dimension" },
+    "5": { "value": "20px", "type": "dimension" },
+    "6": { "value": "24px", "type": "dimension" },
+    "8": { "value": "32px", "type": "dimension" },
+    "10": { "value": "40px", "type": "dimension" },
+    "12": { "value": "48px", "type": "dimension" }
+  },
+  "radius": {
+    "none": { "value": "0px", "type": "dimension" },
+    "sm": { "value": "4px", "type": "dimension" },
+    "md": { "value": "6px", "type": "dimension" },
+    "lg": { "value": "8px", "type": "dimension" },
+    "full": { "value": "999px", "type": "dimension" }
+  },
+  "typography": {
+    "fontFamily": { "value": "Inter, Segoe UI, Arial, sans-serif", "type": "fontFamily" },
+    "display": {
+      "fontSize": { "value": "32px", "type": "dimension" },
+      "lineHeight": { "value": "40px", "type": "dimension" },
+      "fontWeight": { "value": "700", "type": "fontWeight" }
+    },
+    "heading": {
+      "fontSize": { "value": "24px", "type": "dimension" },
+      "lineHeight": { "value": "32px", "type": "dimension" },
+      "fontWeight": { "value": "700", "type": "fontWeight" }
+    },
+    "section": {
+      "fontSize": { "value": "18px", "type": "dimension" },
+      "lineHeight": { "value": "26px", "type": "dimension" },
+      "fontWeight": { "value": "650", "type": "fontWeight" }
+    },
+    "body": {
+      "fontSize": { "value": "14px", "type": "dimension" },
+      "lineHeight": { "value": "20px", "type": "dimension" },
+      "fontWeight": { "value": "400", "type": "fontWeight" }
+    },
+    "small": {
+      "fontSize": { "value": "12px", "type": "dimension" },
+      "lineHeight": { "value": "16px", "type": "dimension" },
+      "fontWeight": { "value": "400", "type": "fontWeight" }
+    }
+  },
+  "elevation": {
+    "none": { "value": "none", "type": "shadow" },
+    "sm": { "value": "0 1px 2px rgba(20, 32, 51, 0.08)", "type": "shadow" },
+    "md": { "value": "0 8px 24px rgba(20, 32, 51, 0.10)", "type": "shadow" },
+    "lg": { "value": "0 18px 48px rgba(20, 32, 51, 0.14)", "type": "shadow" }
+  },
+  "layout": {
+    "pageMaxWidth": { "value": "1440px", "type": "dimension" },
+    "contentMaxWidth": { "value": "1180px", "type": "dimension" },
+    "drawerWidth": { "value": "420px", "type": "dimension" },
+    "sidebarWidth": { "value": "256px", "type": "dimension" }
+  },
+  "motion": {
+    "fast": { "value": "120ms", "type": "duration" },
+    "base": { "value": "180ms", "type": "duration" },
+    "slow": { "value": "260ms", "type": "duration" },
+    "ease": { "value": "cubic-bezier(0.2, 0, 0, 1)", "type": "cubicBezier" }
+  }
+}
+
