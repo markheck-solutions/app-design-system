@@ -328,3 +328,70 @@ Notes:
 - No app repo was modified.
 - No app UI was implemented.
 - No GitHub governance work was performed.
+
+## 2026-07-08 - app-01 Vendor Silence Escalation Board replacements
+
+Purpose: replace the rejected literal radar/timeline concept with immediately understandable Vendor Silence Escalation Board target concepts.
+
+Account/auth result:
+
+- `_whoami` PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Tools used:
+
+- `_whoami`
+- `_get_metadata`
+- `_use_figma`
+- `_get_screenshot`
+- Local screenshot download and visual inspection
+
+Write-to-canvas result:
+
+- PASS.
+- Page used: `21 Pilot App - Target State`
+- Marked old frame `15:233` as rejected:
+  - `REJECTED / ADS / Pilot / Vendor Escalation Tracker / Target / Direction C - Vendor Silence Timeline`
+- Created replacement target concept frames:
+  - `ADS / Pilot / Vendor Escalation Tracker / Target / Concept 1 - Vendor Silence Escalation Ladder` (`22:2`)
+  - `ADS / Pilot / Vendor Escalation Tracker / Target / Concept 2 - Same-Day Escalation Board` (`22:183`)
+  - `ADS / Pilot / Vendor Escalation Tracker / Target / Concept 3 - Revenue Exposure Priority Stack` (`22:332`)
+- Frame links:
+  - Concept 1: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2`
+  - Concept 2: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-183`
+  - Concept 3: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-332`
+
+Visual verification:
+
+- Screenshot checks completed for frames `22:2`, `22:183`, and `22:332`.
+- Rendered screenshots were downloaded locally for inspection:
+  - `C:\Users\mheck\AppData\Local\Temp\app01-concept-1-escalation-ladder-final.png`
+  - `C:\Users\mheck\AppData\Local\Temp\app01-concept-2-same-day-board-final.png`
+  - `C:\Users\mheck\AppData\Local\Temp\app01-concept-3-priority-stack-final.png`
+- Visual inspection confirmed:
+  - no literal radar graphic
+  - no abstract radar rings
+  - vendors are labeled escalation items
+  - days silent, revenue exposure, blocker type, due-date pressure, and next action are visible
+  - queue/detail drawer relationship is represented
+  - read-only draft posture is preserved
+  - on-frame critique is present on all three concepts
+
+Failed or corrected Figma actions:
+
+- First replacement pass created frames `21:4`, `21:190`, and `21:339`, then visual inspection found text clipping/cramped layout. Those frames were removed and replaced with corrected frames `22:2`, `22:183`, and `22:332`.
+- `_get_screenshot` for initial Concept 3 frame `21:339` failed once with transient HTTP 503; retry passed.
+- Final screenshot pass for corrected frames passed.
+
+Notes:
+
+- No app repo was modified.
+- No app UI was implemented.
+- App status remains `target_designing`.
+- No GitHub governance work was performed.

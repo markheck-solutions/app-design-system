@@ -83,11 +83,11 @@ No motion should imply unsupported write actions or live vendor communication.
 
 ## Figma target frame links
 
-- Direction A - Escalation War Room: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-2
-- Direction B - Revenue Risk Desk: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-120
-- Direction C - Vendor Silence Timeline: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233
+- Concept 1 - Vendor Silence Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2
+- Concept 2 - Same-Day Escalation Board: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-183
+- Concept 3 - Revenue Exposure Priority Stack: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-332
 
-These target directions are for owner review and selection. No target direction is approved yet.
+These replacement target concepts are for owner review and selection. No target concept is approved yet. The prior literal radar/timeline treatment was rejected because it required explanation and did not communicate vendor silence as an escalation problem within three seconds.
 
 ## Implementation constraints
 
