@@ -83,7 +83,11 @@ No motion should imply unsupported write actions or live vendor communication.
 
 ## Figma target frame links
 
-TBD. Target Figma frames must not be created until this creative brief is accepted for target design work.
+- Direction A - Escalation War Room: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-2
+- Direction B - Revenue Risk Desk: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-120
+- Direction C - Vendor Silence Radar: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233
+
+These target directions are for owner review and selection. No target direction is approved yet.
 
 ## Implementation constraints
 

@@ -34,7 +34,7 @@
 
 | App ID | Current State | Target State | Notes |
 |---|---|---|---|
-| app-01 | [Root Dashboard](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2); [Detail Drawer](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4) | TBD | Current-state desktop captures under `20 Pilot App - Current State`. |
+| app-01 | [Root Dashboard](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2); [Detail Drawer](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4) | [Direction A - Escalation War Room](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-2); [Direction B - Revenue Risk Desk](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-120); [Direction C - Vendor Silence Radar](https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233) | Current-state desktop captures under `20 Pilot App - Current State`; target directions under `21 Pilot App - Target State`. |
 | app-02 | TBD | TBD | TBD |
 | app-03 | TBD | TBD | TBD |
 | app-04 | TBD | TBD | TBD |

@@ -32,6 +32,9 @@ Operations Dashboard + Table With Detail Drawer
 
 - Current root dashboard: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-2
 - Current detail drawer: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=9-4
+- Target Direction A - Escalation War Room: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-2
+- Target Direction B - Revenue Risk Desk: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-120
+- Target Direction C - Vendor Silence Radar: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233
 
 ## Creative brief
 
@@ -39,8 +42,8 @@ Operations Dashboard + Table With Detail Drawer
 
 ## Status
 
-figma_current_captured
+target_designing
 
 ## Next actions
 
-Create `APP_CREATIVE_BRIEF.md`, then design a target frame after owner confirms the current-state capture and the app-specific visual lane.
+Review target directions and select one approved direction.

@@ -214,3 +214,77 @@ Notes:
 - App repo had uncommitted work; source files were not edited or staged.
 - No redesign, app UI implementation, or GitHub governance work was performed.
 - No failed Figma actions.
+
+## 2026-07-08 - app-01 target design directions
+
+Purpose: create three Vendor Escalation Tracker target directions in Figma for owner review.
+
+Account/auth result:
+
+- `_whoami` PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Tools used:
+
+- `_whoami`
+- `_get_metadata`
+- `_get_libraries`
+- `_search_design_system`
+- `_use_figma`
+- `_get_screenshot`
+
+File result:
+
+- PASS.
+- File name: `MS App Design System`
+- File key: `ricGmgtrDAtklOoB9CkBZb`
+- File URL: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb`
+
+Inspection result:
+
+- Current-state root frame `9:2` resolved and screenshot check passed.
+- Current-state detail drawer frame `9:4` resolved and screenshot check passed after one transient retry.
+- Target page `21 Pilot App - Target State` existed and initially had no app-01 target frames.
+- Local ADS variables, text styles, and elevation styles were present.
+- External design-system search for app-specific assets returned no reusable matches.
+
+Write-to-canvas result:
+
+- PASS.
+- Page used: `21 Pilot App - Target State`
+- Created target direction frames:
+  - `ADS / Pilot / Vendor Escalation Tracker / Target / Direction A - Escalation War Room` (`15:2`)
+  - `ADS / Pilot / Vendor Escalation Tracker / Target / Direction B - Revenue Risk Desk` (`15:120`)
+  - `ADS / Pilot / Vendor Escalation Tracker / Target / Direction C - Vendor Silence Radar` (`15:233`)
+- Frame links:
+  - Direction A: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-2`
+  - Direction B: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-120`
+  - Direction C: `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=15-233`
+
+Visual verification:
+
+- Screenshot checks completed for frames `15:2`, `15:120`, and `15:233`.
+- Rendered screenshots were downloaded locally for inspection:
+  - `C:\Users\mheck\AppData\Local\Temp\app01-direction-a-fixed.png`
+  - `C:\Users\mheck\AppData\Local\Temp\app01-direction-b-fixed.png`
+  - `C:\Users\mheck\AppData\Local\Temp\app01-direction-c-fixed.png`
+- Corrected text clipping by recreating the frames with explicit text heights and fixed horizontal containers.
+
+Failed or corrected Figma actions:
+
+- `_get_screenshot` for current-state detail drawer `9:4` initially failed with HTTP 503; retry passed.
+- `_use_figma` variable/style inspection initially failed with HTTP 503; retry passed.
+- First target write failed atomically because a table-header text call passed an object where a width number was required; no nodes were created.
+- First successful target write produced clipped fixed-height text; frames `13:2`, `13:120`, and `13:233` were removed and replaced with verified frames `15:2`, `15:120`, and `15:233`.
+
+Notes:
+
+- No app repo was modified.
+- No app UI was implemented.
+- No GitHub governance work was performed.
