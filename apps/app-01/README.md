@@ -46,10 +46,14 @@ Operations Dashboard + Table With Detail Drawer
 
 [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
 
+## Dirty branch review
+
+[DIRTY_BRANCH_REVIEW.md](DIRTY_BRANCH_REVIEW.md)
+
 ## Status
 
 target_approved
 
 ## Next actions
 
-Review the implementation plan, resolve open decisions, then implement from the approved Concept 1E frame.
+Confirm whether to build on the dirty `codex/command-center-ux` UI work, leave SQL/output artifacts untouched, then implement from the approved Concept 1E frame.

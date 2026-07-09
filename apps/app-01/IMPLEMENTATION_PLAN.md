@@ -11,6 +11,8 @@ This is planning only for app-01, Vendor Escalation Tracker.
 - App source changes in this task: none
 - App repo staging/commit in this task: none
 
+Dirty branch review: [DIRTY_BRANCH_REVIEW.md](DIRTY_BRANCH_REVIEW.md)
+
 ## Approved Target Verification
 
 Read-only Figma inspection confirmed frame `42:2` is named:
@@ -71,6 +73,8 @@ Implementation should not start until the owner confirms how to handle the dirty
 - Continue on `codex/command-center-ux` and work with the existing edits.
 - Ask the owner to commit/stash/review the existing app repo work first.
 - Create a separate worktree only after the current app repo state is intentionally preserved.
+
+Post-review recommendation: continue on `codex/command-center-ux` only after owner confirms the dirty UI split is the intended base. Leave SQL migrations and `output/` artifacts untouched.
 
 ## Current App Structure
 
@@ -280,3 +284,4 @@ Screenshot storage should be decided before implementation. Prefer temporary pro
 - Whether delay age and last meaningful progress should be derived in UI only or added to API DTOs.
 - Whether the current metric strip should be removed, reduced, or moved below the evidence board.
 - Whether implementation screenshots should be committed or kept as temporary validation artifacts.
+- Whether unrelated SQL migrations and `output/` artifacts should remain outside the app-01 UI implementation branch.

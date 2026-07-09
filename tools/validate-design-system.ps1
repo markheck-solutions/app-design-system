@@ -90,6 +90,7 @@ function Test-AppTrackingBoundary {
     "APP_INTAKE.md",
     "APP_ROLLOUT_REPORT.md",
     "DESIGN_DECISION_RECORD.md",
+    "DIRTY_BRANCH_REVIEW.md",
     "FACELIFT_PLAN.md",
     "FIGMA_HANDOFF.md",
     "IMPLEMENTATION_PLAN.md",
