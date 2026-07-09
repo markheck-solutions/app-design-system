@@ -86,12 +86,13 @@ No motion should imply unsupported write actions or live vendor communication.
 
 ## Figma target frame links
 
-- Approved target - Concept 1B - Vendor Delay Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=29-6
+- Approved target - Concept 1E - Evidence Board Variant: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=42-2
+- Superseded - Concept 1B - Vendor Delay Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=29-6
 - Superseded - Concept 1 - Vendor Silence Escalation Ladder: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-2
 - Not selected - Concept 2 - Same-Day Escalation Board: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-183
 - Not selected - Concept 3 - Revenue Exposure Priority Stack: https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=22-332
 
-Concept 1B is the approved app-01 target direction for implementation planning. The prior Concept 1 frame is superseded because it was too narrow and focused on silence instead of vendor delay/progress failure. The earlier literal radar/timeline treatment remains rejected because it required explanation and did not communicate the escalation problem within three seconds.
+Concept 1E is the approved app-01 target direction for implementation planning because it preserves the 5-stage delay escalation ladder while adding a selected vendor evidence board, progress timeline, closure criteria, and copy-safe draft preview. Concept 1B is superseded, not deleted, because the middle ranked queue repeated the ladder instead of adding evidence value. The prior Concept 1 frame is superseded because it was too narrow and focused on silence instead of vendor delay/progress failure. The earlier literal radar/timeline treatment remains rejected because it required explanation and did not communicate the escalation problem within three seconds.
 
 ## Implementation constraints
 

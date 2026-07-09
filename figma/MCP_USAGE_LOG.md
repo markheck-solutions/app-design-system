@@ -522,3 +522,60 @@ Notes:
 - No app UI was implemented.
 - App status remains `target_approved`.
 - No GitHub governance work was performed.
+
+## 2026-07-08 - app-01 Concept 1E target approval
+
+Purpose: approve Concept 1E as the app-01 target direction and supersede Concept 1B without deleting prior frames.
+
+Account/auth result:
+
+- `_whoami` PASS.
+- Handle: `mheck83`
+- Email: `mheck83@gmail.com`
+- Plan: `mheck83's team`
+- Plan key: `team::1624928493158078131`
+- Seat: `Full`
+- Tier: `pro`
+- Seat type: `expert`
+
+Tools used:
+
+- `_whoami`
+- `_use_figma`
+
+Write-to-canvas result:
+
+- PASS.
+- Page used: `21 Pilot App - Target State`
+- Approved frame:
+  - `APPROVED / ADS / Pilot / Vendor Escalation Tracker / Target / Concept 1E - Evidence Board Variant` (`42:2`)
+- Superseded prior approved frame:
+  - `SUPERSEDED - replaced by Concept 1E Evidence Board Variant / APPROVED / ADS / Pilot / Vendor Escalation Tracker / Target / Concept 1B - Vendor Delay Escalation Ladder` (`29:6`)
+- Approved target link:
+  - `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=42-2`
+- Superseded Concept 1B link:
+  - `https://www.figma.com/design/ricGmgtrDAtklOoB9CkBZb/MS-App-Design-System?node-id=29-6`
+
+Verification:
+
+- `1E` approved marker exists.
+- `1B` superseded marker exists.
+- Evidence board exists.
+- Progress timeline exists.
+- Closure criteria exists.
+- Copy-safe draft preview exists.
+- Five ladder stages exist.
+- Prior frames were not deleted.
+
+Failed or corrected Figma actions:
+
+- None.
+
+Notes:
+
+- No app repo was modified.
+- No app source code was modified.
+- No app UI was implemented.
+- App status remains `target_approved`.
+- Design-system version remains `0.1.0`.
+- No GitHub governance work was performed.
