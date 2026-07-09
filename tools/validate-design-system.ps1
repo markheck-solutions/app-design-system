@@ -92,6 +92,7 @@ function Test-AppTrackingBoundary {
     "DESIGN_DECISION_RECORD.md",
     "FACELIFT_PLAN.md",
     "FIGMA_HANDOFF.md",
+    "IMPLEMENTATION_PLAN.md",
     "README.md",
     "UX_AUDIT.md",
     "VISUAL_QA_REPORT.md"

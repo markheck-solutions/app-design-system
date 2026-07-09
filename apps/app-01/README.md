@@ -42,10 +42,14 @@ Operations Dashboard + Table With Detail Drawer
 
 [APP_CREATIVE_BRIEF.md](APP_CREATIVE_BRIEF.md)
 
+## Implementation plan
+
+[IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
+
 ## Status
 
 target_approved
 
 ## Next actions
 
-Create an implementation plan from the approved Concept 1E frame.
+Review the implementation plan, resolve open decisions, then implement from the approved Concept 1E frame.
